@@ -1,0 +1,12 @@
+﻿@{
+    ViewData["Title"] = "Login Page";
+    Layout = "_CoreLayout";
+}
+
+<div class="text-center">
+    <form action="~/User/Login" method="post">
+        <input type="text" name="username" class="form-control" placeholder="Username" />
+        <input type="text" name="password" class="form-control" placeholder="Passsword" />
+        <button type="submit" class="btn btn-primary">Login</button>
+    </form>
+</div>
