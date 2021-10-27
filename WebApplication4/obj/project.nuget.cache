@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "b9NfBm1hco+MrlBvpz2778VhXNIv3EhyZ6lRZqpwhHgcl8T+sUgmaRPfuqxiXKwV7FRYpyR7kWPbB75gAWxPqA==",
+  "dgSpecHash": "zKLSk8Jbl64aA3Ip4eMOH6B9G+YXw9LGYjskaAjsdnwW0bvNAYMomyVNn0nQqV0R+IZlpOxIDlDK8Raz6Mm0qg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\sonmc\\Desktop\\WebApplication4\\WebApplication4\\WebApplication4.csproj",
+  "projectFilePath": "C:\\Users\\sonmc\\Desktop\\New folder\\AspnetMvcC11G1\\WebApplication4\\WebApplication4.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\sonmc\\.nuget\\packages\\microsoft.aspnet.webapi.client\\5.2.6\\microsoft.aspnet.webapi.client.5.2.6.nupkg.sha512",
     "C:\\Users\\sonmc\\.nuget\\packages\\microsoft.aspnetcore\\2.2.0\\microsoft.aspnetcore.2.2.0.nupkg.sha512",

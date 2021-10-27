@@ -1,0 +1,20 @@
+﻿@using WebApplication4.Entities
+@{
+    var product = ViewData["ProductUpdate"] as Product;
+}
+<form>
+    <div class="form-group">
+        <label for="exampleInputEmail1">Id</label>
+        <input type="text" class="form-control" value="@product.Id" readonly>
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Name</label>
+        <input type="text" class="form-control" value="@product.Name">
+    </div>
+    <div class="form-group">
+        <label for="exampleInputPassword1">Price</label>
+        <input type="text" class="form-control" value="@product.Price">
+    </div>
+    <button type="submit" class="btn btn-primary">Update</button>
+    <a href="@Url.Action("Index", "Product")" class="btn btn-default">Back</a>
+</form>

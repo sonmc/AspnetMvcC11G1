@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sonmc\\Desktop\\WebApplication4\\WebApplication4\\WebApplication4.csproj": {}
+    "C:\\Users\\sonmc\\Desktop\\New folder\\AspnetMvcC11G1\\WebApplication4\\WebApplication4.csproj": {}
   },
   "projects": {
-    "C:\\Users\\sonmc\\Desktop\\WebApplication4\\WebApplication4\\WebApplication4.csproj": {
+    "C:\\Users\\sonmc\\Desktop\\New folder\\AspnetMvcC11G1\\WebApplication4\\WebApplication4.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sonmc\\Desktop\\WebApplication4\\WebApplication4\\WebApplication4.csproj",
+        "projectUniqueName": "C:\\Users\\sonmc\\Desktop\\New folder\\AspnetMvcC11G1\\WebApplication4\\WebApplication4.csproj",
         "projectName": "WebApplication4",
-        "projectPath": "C:\\Users\\sonmc\\Desktop\\WebApplication4\\WebApplication4\\WebApplication4.csproj",
+        "projectPath": "C:\\Users\\sonmc\\Desktop\\New folder\\AspnetMvcC11G1\\WebApplication4\\WebApplication4.csproj",
         "packagesPath": "C:\\Users\\sonmc\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sonmc\\Desktop\\WebApplication4\\WebApplication4\\obj\\",
+        "outputPath": "C:\\Users\\sonmc\\Desktop\\New folder\\AspnetMvcC11G1\\WebApplication4\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -29,6 +29,7 @@
         },
         "frameworks": {
           "netcoreapp2.2": {
+            "targetAlias": "netcoreapp2.2",
             "projectReferences": {}
           }
         },
@@ -40,6 +41,7 @@
       },
       "frameworks": {
         "netcoreapp2.2": {
+          "targetAlias": "netcoreapp2.2",
           "dependencies": {
             "Microsoft.AspNetCore.App": {
               "suppressParent": "All",

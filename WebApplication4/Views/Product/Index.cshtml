@@ -1,7 +1,33 @@
-﻿@{
+﻿@model IEnumerable<WebApplication4.Entities.Product>
+@{
     ViewData["Title"] = "Product Page";
 }
 
 <div class="text-center">
-    <h1 class="display-4">product view</h1>
+    <h1 class="display-4">Product list</h1>
+
+    <table class="table">
+        <thead>
+            <tr>
+                <th scope="col">Id</th>
+                <th scope="col">Name</th>
+                <th scope="col">Price</th>
+                <th></th>
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+             {
+                <tr>
+                    <th scope="row">@item.Id</th>
+                    <td>@item.Name</td>
+                    <td>@item.Price</td>
+                    <td>
+                        <a href="@Url.Action("Update","Product", new {id = item.Id })" class="btn btn-primary">Update</a>
+                        <a href="@Url.Action("Delete","Product", new {id = item.Id })" class="btn btn-danger">Delete</a>
+                    </td>
+                </tr>
+             }
+        </tbody>
+    </table>
 </div>
